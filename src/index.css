@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Booking.com color palette */
+  --booking-blue: #003580;
+  --booking-blue-light: #0071c2;
+  --booking-teal: #00a698;
+  --booking-orange: #ff7b00;
+  --booking-dark: #262626;
+  --booking-gray: #666;
+  --booking-gray-light: #f5f5f5;
+  --booking-gray-border: #e0e0e0;
+  --booking-white: #fff;
+
+  font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: var(--booking-gray-light);
+  color: var(--booking-dark);
+}
+
+#root {
+  min-height: 100vh;
+}
